@@ -14,7 +14,10 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         labelOutlet.text = "\(AppData.name) you chose \(AppData.number)!"
-        
+        AppData.quesArray.append("You will drive a...")
+        AppData.quesArray.append("You will live in a...")
+        AppData.quesArray.append("You will have a...")
+        AppData.quesArray.append("You will marry...")
         // Do any additional setup after loading the view.
     }
     
