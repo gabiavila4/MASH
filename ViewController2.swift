@@ -18,15 +18,13 @@ class ViewController2: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func playAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toPlay", sender: self)
     }
-    */
-
+    
+    
+    @IBAction func createAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toCreate", sender: self)
+    }
+    
 }

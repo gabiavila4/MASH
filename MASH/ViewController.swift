@@ -13,8 +13,8 @@ public class AppData {
     static var smonth = ""
     static var sday = ""
     let defaults = UserDefaults.standard
-    static var imgArray = [UIImage]()
-    
+    static var answerArray = [String]()
+    static var quesArray = [String]()
    
     }
 
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var TFOutlet: UITextField!
     
-    var num = 0
+    var num = 1
     
     override func viewDidLoad() {
         labelOutlet.text = "\(num)"
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func subAction(_ sender: UIButton) {
-        if num > 0{
+        if num > 1{
         num = num - 1
         labelOutlet.text = "\(num)"
         }else

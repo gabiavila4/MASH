@@ -18,6 +18,8 @@
 		C82710D82B1F7D4C00A69EE9 /* MASHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82710D72B1F7D4C00A69EE9 /* MASHTests.swift */; };
 		C82710E22B1F7D4C00A69EE9 /* MASHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82710E12B1F7D4C00A69EE9 /* MASHUITests.swift */; };
 		C82710E42B1F7D4C00A69EE9 /* MASHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82710E32B1F7D4C00A69EE9 /* MASHUITestsLaunchTests.swift */; };
+		C8D7ACF52B22C25C00031BFD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7ACF42B22C25C00031BFD /* ViewController3.swift */; };
+		C8D7ACF72B22C26900031BFD /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7ACF62B22C26900031BFD /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C82710DD2B1F7D4C00A69EE9 /* MASHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MASHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82710E12B1F7D4C00A69EE9 /* MASHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASHUITests.swift; sourceTree = "<group>"; };
 		C82710E32B1F7D4C00A69EE9 /* MASHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8D7ACF42B22C25C00031BFD /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		C8D7ACF62B22C26900031BFD /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		C82710B12B1F7D4A00A69EE9 = {
 			isa = PBXGroup;
 			children = (
+				C8D7ACF42B22C25C00031BFD /* ViewController3.swift */,
+				C8D7ACF62B22C26900031BFD /* ViewController4.swift */,
 				C81526042B221FCE00AEEFBF /* ViewController2.swift */,
 				C82710BC2B1F7D4A00A69EE9 /* MASH */,
 				C82710D62B1F7D4C00A69EE9 /* MASHTests */,
@@ -265,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C81526052B221FCE00AEEFBF /* ViewController2.swift in Sources */,
+				C8D7ACF72B22C26900031BFD /* ViewController4.swift in Sources */,
 				C82710C22B1F7D4A00A69EE9 /* ViewController.swift in Sources */,
+				C8D7ACF52B22C25C00031BFD /* ViewController3.swift in Sources */,
 				C82710BE2B1F7D4A00A69EE9 /* AppDelegate.swift in Sources */,
 				C82710C82B1F7D4A00A69EE9 /* MASH.xcdatamodeld in Sources */,
 				C82710C02B1F7D4A00A69EE9 /* SceneDelegate.swift in Sources */,
