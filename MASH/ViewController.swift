@@ -9,13 +9,13 @@ public class AppData {
      
     static var number = 0
     static var name = ""
-    static var cday = ""
-    static var smonth = ""
-    static var sday = ""
     let defaults = UserDefaults.standard
     static var answerArray = [String]()
     static var quesArray = [String]()
-   
+    static var answerQ1Array = [String]()
+    static var answerQ2Array = [String]()
+    static var answerQ3Array = [String]()
+    static var answerQ4Array = [String]()
     }
 
 import UIKit

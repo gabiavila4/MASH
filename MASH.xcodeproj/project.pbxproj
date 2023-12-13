@@ -20,6 +20,7 @@
 		C82710E42B1F7D4C00A69EE9 /* MASHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82710E32B1F7D4C00A69EE9 /* MASHUITestsLaunchTests.swift */; };
 		C8D7ACF52B22C25C00031BFD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7ACF42B22C25C00031BFD /* ViewController3.swift */; };
 		C8D7ACF72B22C26900031BFD /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7ACF62B22C26900031BFD /* ViewController4.swift */; };
+		C8F0F2812B28B70600E20277 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F0F2802B28B70600E20277 /* ViewController5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C82710E32B1F7D4C00A69EE9 /* MASHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASHUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C8D7ACF42B22C25C00031BFD /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		C8D7ACF62B22C26900031BFD /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		C8F0F2802B28B70600E20277 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				C82710BF2B1F7D4A00A69EE9 /* SceneDelegate.swift */,
 				C82710C12B1F7D4A00A69EE9 /* ViewController.swift */,
 				C82710C32B1F7D4A00A69EE9 /* Main.storyboard */,
+				C8F0F2802B28B70600E20277 /* ViewController5.swift */,
 				C82710C92B1F7D4C00A69EE9 /* Assets.xcassets */,
 				C82710CB2B1F7D4C00A69EE9 /* LaunchScreen.storyboard */,
 				C82710CE2B1F7D4C00A69EE9 /* Info.plist */,
@@ -274,6 +277,7 @@
 				C8D7ACF72B22C26900031BFD /* ViewController4.swift in Sources */,
 				C82710C22B1F7D4A00A69EE9 /* ViewController.swift in Sources */,
 				C8D7ACF52B22C25C00031BFD /* ViewController3.swift in Sources */,
+				C8F0F2812B28B70600E20277 /* ViewController5.swift in Sources */,
 				C82710BE2B1F7D4A00A69EE9 /* AppDelegate.swift in Sources */,
 				C82710C82B1F7D4A00A69EE9 /* MASH.xcdatamodeld in Sources */,
 				C82710C02B1F7D4A00A69EE9 /* SceneDelegate.swift in Sources */,

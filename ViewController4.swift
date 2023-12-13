@@ -28,10 +28,21 @@ class ViewController4: UIViewController {
     }
     
     @IBAction func submitArray(_ sender: UIButton) {
-        if i < AppData.quesArray.count
+        if i < AppData.quesArray.count - 1
         {
             i = i + 1
+            print("\(i)")
             labelOutlet.text = AppData.quesArray[i]
+        }else
+        {
+            let alert = UIAlertController(title: "Generate!", message: "You have submitted all the answers", preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            
+            alert.addAction(okAction)
+            
+           
+            present(alert, animated: true, completion: nil)
         }
         AppData.answerArray.append(TFOutlet1.text ?? "")
         AppData.answerArray.append(TFOutlet2.text ?? "")
@@ -41,6 +52,28 @@ class ViewController4: UIViewController {
         TFOutlet2.text = ""
         TFOutlet3.text = ""
         TFOutlet4.text = ""
+        
+    }
+    
+    @IBAction func generateAction(_ sender: UIButton) {
+        
+        if AppData.answerArray.count < 16{
+            
+                let alert = UIAlertController(title: "Error", message: "You haven't submitted all the answers! ", preferredStyle: .alert)
+                
+                let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                
+                alert.addAction(okAction)
+                
+               
+                present(alert, animated: true, completion: nil)
+            
+            
+        }else{
+        performSegue(withIdentifier: "toFinal", sender: self)
+            
+        }
+        
         
     }
     
