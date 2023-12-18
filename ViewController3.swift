@@ -16,7 +16,7 @@ class ViewController3: UIViewController {
     @IBOutlet weak var label3Outlet: UILabel!
     
     @IBOutlet weak var label4Outlet: UILabel!
-    
+    var i = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ class ViewController3: UIViewController {
         //marry
         AppData.answerQ4Array.append("The Rock")
         AppData.answerQ4Array.append("Santa Claus/Mrs. Claus")
-        AppData.answerQ4Array.append("The person sitting next to you")
+        AppData.answerQ4Array.append("The person -> you")
         AppData.answerQ4Array.append("Josh")
         
         //printing
@@ -48,30 +48,46 @@ class ViewController3: UIViewController {
         for blah in AppData.answerQ1Array
         {
             s = "\(s)\(blah)\n"
-            label1Outlet.text = "\(s)"
+            
         }
+        label1Outlet.text = "\(s)"
         var s2 = ""
         for blah in AppData.answerQ2Array
         {
             s2 = "\(s2)\(blah)\n"
-            label2Outlet.text = "\(s2)"
+            
         }
+        label2Outlet.text = "\(s2)"
         var s3 = ""
         for blah in AppData.answerQ3Array
         {
             s3 = "\(s3)\(blah)\n"
-            label3Outlet.text = "\(s3)"
+           
         }
+        label3Outlet.text = "\(s3)"
         var s4 = ""
         for blah in AppData.answerQ4Array
         {
             s4 = "\(s4)\(blah)\n"
-            label4Outlet.text = "\(s4)"
+            
         }
+        label4Outlet.text = "\(s4)"
         
     }
     
 
+    
+    
+    @IBAction func chooseAction(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "toEnd", sender: self)
+        
+    }
+    
+    
+   
+    
+    
     
 
 }

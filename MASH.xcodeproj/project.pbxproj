@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DD775762B2EBE900080C27B /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD775752B2EBE900080C27B /* ViewController6.swift */; };
 		C81526052B221FCE00AEEFBF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81526042B221FCE00AEEFBF /* ViewController2.swift */; };
 		C82710BE2B1F7D4A00A69EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82710BD2B1F7D4A00A69EE9 /* AppDelegate.swift */; };
 		C82710C02B1F7D4A00A69EE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82710BF2B1F7D4A00A69EE9 /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DD775752B2EBE900080C27B /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		C81526042B221FCE00AEEFBF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		C82710BA2B1F7D4A00A69EE9 /* MASH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MASH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82710BD2B1F7D4A00A69EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		C82710B12B1F7D4A00A69EE9 = {
 			isa = PBXGroup;
 			children = (
+				6DD775752B2EBE900080C27B /* ViewController6.swift */,
 				C8D7ACF42B22C25C00031BFD /* ViewController3.swift */,
 				C8D7ACF62B22C26900031BFD /* ViewController4.swift */,
 				C81526042B221FCE00AEEFBF /* ViewController2.swift */,
@@ -279,6 +282,7 @@
 				C8D7ACF52B22C25C00031BFD /* ViewController3.swift in Sources */,
 				C8F0F2812B28B70600E20277 /* ViewController5.swift in Sources */,
 				C82710BE2B1F7D4A00A69EE9 /* AppDelegate.swift in Sources */,
+				6DD775762B2EBE900080C27B /* ViewController6.swift in Sources */,
 				C82710C82B1F7D4A00A69EE9 /* MASH.xcdatamodeld in Sources */,
 				C82710C02B1F7D4A00A69EE9 /* SceneDelegate.swift in Sources */,
 			);

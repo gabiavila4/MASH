@@ -82,6 +82,12 @@ class ViewController5: UIViewController {
     }
     
 
-  
-
+    @IBAction func endAction(_ sender: UIBarButtonItem) {
+       
+    }
+    
+    @IBAction func enddAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toEndd", sender: self)
+    }
+    
 }
