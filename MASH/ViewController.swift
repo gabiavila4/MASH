@@ -3,7 +3,9 @@
 //  MASH
 //
 //  Created by GABRIELA AVILA on 12/5/23.
-//
+//programming: Variables & constants, operators, if/else, while loops/for loops, arrays, functions, classes, github, safely unwrapping, switch
+//UI Elements: Textfield, Button, Label, Stackview, Imageview, Navigation Controller, View Controller, Alert Controller, Constraints
+
 
 public class AppData {
      

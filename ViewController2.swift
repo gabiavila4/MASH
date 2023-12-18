@@ -21,12 +21,43 @@ class ViewController2: UIViewController {
         AppData.quesArray.append("You will have a pet...")
         AppData.quesArray.append("You will marry...")
         
-        if AppData.number == 1{
-            imageOutlet.image = UIImage(named: "swirlNum1")
-        }else if AppData.number == 4{
-            imageOutlet.image = UIImage(named: "swirlNum4 1")
+        switch AppData.number
+        {
+        case 1:
+        imageOutlet.image = UIImage(named: "swirlNum1")
+        case 2:
+        imageOutlet.image = UIImage(named: "swirlNum4 1")
+            print("hey")
+        case 3:
+        imageOutlet.image = UIImage(named: "swirlNum 4 1")
+            print("hey")
+        case 4:
+        imageOutlet.image = UIImage(named: "swirlNum4 1")
+            print("hey")
+        case 5:
+        imageOutlet.image = UIImage(named: "swirlNum4 1")
+            print("hey")
+        case 6:
+        imageOutlet.image = UIImage(named: "Swirl 6")
+        case 7:
+        imageOutlet.image = UIImage(named: "Swirl 7")
+        case 8:
+        imageOutlet.image = UIImage(named: "swirlNum4 1")
+            print("hey")
+        case 9:
+        imageOutlet.image = UIImage(named: "swirlNum4 1")
+            print("hey")
+        case 10:
+        imageOutlet.image = UIImage(named: "Swirl 10")
+           
+    
+        
+        default:
+            print("hi")
         }
-        // Do any additional setup after loading the view.
+      
+            
+       
     }
     
     @IBAction func playAction(_ sender: UIButton) {
